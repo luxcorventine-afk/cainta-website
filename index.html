@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Municipality of Cainta | Cinematic Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Light Grey Theatrical Loading Curtain -->
+  <div class="loading-curtain" id="loadingCurtain">
+    <div class="loader-text">CAINTA</div>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="header-left"><span class="municipality-name">Municipality of Cainta</span></div>
+    <div class="header-center"><img src="pics/main_pg_pics/cainta_logo.png" alt="Municipality of Cainta Logo" class="logo-img"></div>
+    <div class="header-right">
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </button>
+      <nav class="dropdown-menu" id="dropdownMenu">
+        <ul class="hList">
+          <li><a href="#home" class="menu"><h2 class="menu-title">Home</h2></a></li>
+          <li><div class="menu"><h2 class="menu-title menu-title_2nd">About Cainta</h2><ul class="menu-dropdown"><li><a href="#history">History</a></li><li><a href="#awards">Awards</a></li><li><a href="#barangays">Barangays</a></li></ul></div></li>
+          <li><div class="menu"><h2 class="menu-title menu-title_3rd">Government</h2><ul class="menu-dropdown"><li><a href="#officials">Municipal Officials</a></li><li><a href="#departments">Departments and Offices</a></li><li><a href="#disclosure">Full Disclosure</a></li></ul></div></li>
+          <li><a href="#contact" class="menu"><h2 class="menu-title menu-title_4th">Contact Us</h2></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-background" style="background-image: url('pics/main_pg_pics/main_hall_pic.jpg');"></div> 
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="title-line"><span class="title-text">Welcome</span></span><br>
+        <span class="title-line"><span class="title-text">To Cainta</span></span>
+      </h1>
+    </div>
+  </section>
+
+  <div class="content-wrapper">
+    
+    <!-- 1ST STICKY SCALING SECTION: HOTLINES -->
+    <section class="scale-intro-section" id="hotlines-intro">
+      <div class="scale-intro-container">
+        <div class="scale-intro-img" style="background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop');"></div>
+        <div class="scale-intro-overlay"></div>
+        <div class="section-dimmer"></div>
+
+        <section class="hotlines-section" id="hotlines">
+          <h2 class="hotlines-title">HOTLINES</h2>
+          <div class="hotlines-grid">
+            <a href="tel:85350131" class="hotline-card full-width">
+              <img src="pics/main_pg_pics/rescue.avif" alt="MDRRMO Rescue Logo" class="hl-logo" onerror="this.src='pics/main_pg_pics/rescue.png'">
+              <div class="hl-content">
+                <svg class="hl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <h3 class="hl-number">8535-0131</h3>
+                <p class="hl-label">RESCUE 131 (24/7)</p>
+              </div>
+            </a>
+            <a href="tel:86962616" class="hotline-card">
+              <img src="pics/main_pg_pics/fire.avif" alt="Fire Station Logo" class="hl-logo" onerror="this.src='pics/main_pg_pics/fire.png'">
+              <div class="hl-content">
+                <svg class="hl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <h3 class="hl-number">8696-2616</h3>
+                <p class="hl-label">FIRE</p>
+              </div>
+            </a>
+            <a href="tel:86962605" class="hotline-card">
+              <img src="pics/main_pg_pics/hospital.avif" alt="Municipal Hospital Logo" class="hl-logo" onerror="this.src='pics/main_pg_pics/hospital.png'">
+              <div class="hl-content">
+                <svg class="hl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <h3 class="hl-number">8696-2605</h3>
+                <p class="hl-label">HOSPITAL</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- 2ND STICKY SCALING SECTION: SERVICES -->
+    <section class="scale-intro-section" id="services-intro">
+      <div class="scale-intro-container">
+        <div class="scale-intro-img" style="background-image: url('pics/main_pg_pics/sevicesbg.jpg');"></div>
+        <div class="scale-intro-overlay"></div>
+        <div class="section-dimmer"></div>
+
+        <section class="services-section" id="services">
+          <h2 class="services-main-title">SERVICES</h2>
+          <div class="services-grid">
+            
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">COVID19</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">Vaccination</a>
+                  <a href="#" class="sc-link">Testing & Certification</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">HEALTH</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">Health Centers & Services</a>
+                  <a href="#" class="sc-link">Free Pneumonia & Flu Vax</a>
+                  <a href="#" class="sc-link">Libreng Tuli</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">HOSPITAL</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">Municipal Hospital</a>
+                  <a href="#" class="sc-link">Medical Arts</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">ID APPLICATION</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">Senior Citizen</a>
+                  <a href="#" class="sc-link">Solo Parents</a>
+                  <a href="#" class="sc-link">PWDs</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">COLLEGE</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">One Cainta College Portal</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">ONLINE SERVICES</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">E-Payment (RPT)</a>
+                  <a href="#" class="sc-link">Health Certificate</a>
+                  <a href="#" class="sc-link">Business Permit (New/Renewal)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">RESOLUTIONS &<br>ORDINANCES</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">View Local Ordinances</a>
+                  <a href="#" class="sc-link">Municipal Resolutions</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sc-wrapper">
+              <div class="service-card">
+                <div class="sc-header"><h3 class="sc-title">OTHERS</h3></div>
+                <div class="sc-body">
+                  <a href="#" class="sc-link">Free Funeral and Cremation</a>
+                  <a href="#" class="sc-link">Free Anti-Rabies Vax</a>
+                  <a href="#" class="sc-link">Free Spay Program</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- THE WHITE BLANKET LAYER -->
+    <div class="magazine-content" id="history">
+      <section class="content-section">
+        <div class="section-image-container reveal-wrapper">
+          <div class="image-placeholder reveal-img" style="background-image: url('https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop');"></div>
+        </div>
+        <div class="section-text">
+          <h2 class="slide-text">History etched in stone</h2>
+          <p class="slide-text">Founded in 1707, Cainta stands as one of the oldest settlements in Rizal. Its rich past—from the arrival of Sepoy soldiers to its role in the Philippine Revolution—is preserved in every corner of the municipality.</p>
+        </div>
+      </section>
+
+      <!-- ===== 3D CURVED CAROUSEL ===== -->
+      <section class="tourist-section" id="tourist-spots">
+        <div class="tourist-header">
+          <h2 class="tourist-main-title slide-text">Discover Cainta</h2>
+          <p class="tourist-subtitle slide-text">Explore the landmarks that define our municipality</p>
+        </div>
+
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carouselTrack">
+            <!-- Index 0 -->
+            <div class="carousel-card" data-index="0">
+              <div class="cc-img" style="background-image: url('pics/tourist_spots/museocainta.avif');"></div>
+              <div class="cc-label"><span>Museo de Cainta</span></div>
+              <div class="card-hint">
+                <span>Explore</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+            <!-- Index 1 -->
+            <div class="carousel-card" data-index="1">
+              <div class="cc-img" style="background-image: url('pics/tourist_spots/onearena.jpg');"></div>
+              <div class="cc-label"><span>One Cainta Arena</span></div>
+              <div class="card-hint">
+                <span>Explore</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+            <!-- Index 2 (Initial Active) -->
+            <div class="carousel-card" data-index="2">
+              <div class="cc-img" style="background-image: url('pics/tourist_spots/ovalpark.webp');"></div>
+              <div class="cc-label"><span>Oval Park</span></div>
+              <div class="card-hint">
+                <span>Explore</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+            <!-- Index 3 -->
+            <div class="carousel-card" data-index="3">
+              <div class="cc-img" style="background-image: url('pics/tourist_spots/rotc.jpg');"></div>
+              <div class="cc-label"><span>ROTC Grounds</span></div>
+              <div class="card-hint">
+                <span>Explore</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+            <!-- Index 4 -->
+            <div class="carousel-card" data-index="4">
+              <div class="cc-img" style="background-image: url('pics/tourist_spots/stalucia.jpg');"></div>
+              <div class="cc-label"><span>Sta. Lucia Mall</span></div>
+              <div class="card-hint">
+                <span>Explore</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-btn prev" id="carouselPrev" aria-label="Previous">&#8592;</button>
+          <button class="carousel-btn next" id="carouselNext" aria-label="Next">&#8594;</button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots">
+          <span class="dot" data-dot="0"></span>
+          <span class="dot" data-dot="1"></span>
+          <span class="dot active" data-dot="2"></span>
+          <span class="dot" data-dot="3"></span>
+          <span class="dot" data-dot="4"></span>
+        </div>
+      </section>
+
+      <!-- ===== NEWS SECTION ===== -->
+      <section class="news-section" id="news">
+        <h2 class="news-main-title slide-text">Other News and Videos</h2>
+
+        <div class="news-grid">
+          <!-- Article 1 -->
+          <div class="news-img-cell" style="background-image: url('pics/main_pg_pics/senakula.avif');"></div>
+          <div class="news-text-cell">
+            <h3 class="news-title">CAINTA OBSERVES SEMANA SANTA 2024 WITH SENAKULO AND PARADA</h3>
+            <p class="news-date">April 2, 2024</p>
+            <p class="news-excerpt">True to its century’s tradition of Lenten observation, Cainta began the month of March with its own staging of...</p>
+            <a href="#" class="news-read-more">Read More</a>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="news-img-cell" style="background-image: url('pics/main_pg_pics/caintaawards.avif');"></div>
+          <div class="news-text-cell">
+            <h3 class="news-title">CAINTA NAMED THE MOST COMPETITIVE MUNICIPALITY IN THE PHILIPPINES</h3>
+            <p class="news-date">September 28, 2023</p>
+            <p class="news-excerpt">The Municipality of Cainta once again was named as the Most Competitive Municipality in the Philippines during...</p>
+            <a href="#" class="news-read-more">Read More</a>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="news-img-cell" style="background-image: url('pics/main_pg_pics/collegepic.avif');"></div>
+          <div class="news-text-cell">
+            <h3 class="news-title">ONE CAINTA COLLEGE RESUMES COMMENCEMENT EXERCISES</h3>
+            <p class="news-date">September 1, 2023</p>
+            <p class="news-excerpt">Last August 8, 2023, the One Cainta College resumed its graduation rites for its 317 students, the 3rd face-to-face graduation...</p>
+            <a href="#" class="news-read-more">Read More</a>
+          </div>
+
+          <!-- Article 4 -->
+          <div class="news-img-cell" style="background-image: url('pics/main_pg_pics/shelterpic.avif');"></div>
+          <div class="news-text-cell">
+            <h3 class="news-title">ONE CAINTA COMMUNITY SHELTER FINALLY OPENS</h3>
+            <p class="news-date">May 2, 2023</p>
+            <p class="news-excerpt">A first of its kind and fully-run by the local government, Cainta finally opened its Shelter for the Homeless, along the Westbank...</p>
+            <a href="#" class="news-read-more">Read More</a>
+          </div>
+        </div>
+
+        <!-- ===== VIDEO THUMBNAILS ROW ===== -->
+        <div class="videos-row">
+          <!-- Video 1 -->
+          <div class="video-thumb" data-video="main_pg_vids/museo_cainta_mp.mp4" data-title="MUSEO CAINTA" data-link="Go to Page MUSEO CAINTA">
+            <!-- #t=0.1 extracts the first frame of the local video to act as a thumbnail -->
+            <video class="vt-img" src="main_pg_vids/museo_cainta_mp.mp4#t=0.1" preload="metadata" muted playsinline></video>
+            <div class="vt-overlay"></div>
+            <div class="vt-play">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <p class="vt-caption">MUSEO CAINTA</p>
+          </div>
+          <!-- Video 2 -->
+          <div class="video-thumb" data-video="main_pg_vids/paradangpanata_mp.mp4" data-title="PARADA NG PANATA 2025" data-link="Go to Page PARADA NG PANATA 2025">
+            <video class="vt-img" src="main_pg_vids/paradangpanata_mp.mp4#t=0.1" preload="metadata" muted playsinline></video>
+            <div class="vt-overlay"></div>
+            <div class="vt-play">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <p class="vt-caption">PARADA NG PANATA 2025</p>
+          </div>
+          <!-- Video 3 -->
+          <div class="video-thumb" data-video="main_pg_vids/cainta_top1_mp.mp4" data-title="CAINTA MAINTAINING ITS TOP 1 RANKING" data-link="Go to Page CAINTA MAINTAINING ITS TOP 1 RANKING">
+            <video class="vt-img" src="main_pg_vids/cainta_top1_mp.mp4#t=0.1" preload="metadata" muted playsinline></video>
+            <div class="vt-overlay"></div>
+            <div class="vt-play">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <p class="vt-caption">CAINTA MAINTAINING ITS TOP 1 RANKING</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ===== MULTI-COLUMN FOOTER ===== -->
+      <footer class="site-footer" id="contact">
+        <div class="footer-top">
+          <div class="footer-brand">
+             <img src="pics/main_pg_pics/cainta_logo.png" alt="Cainta Logo" class="footer-logo">
+             <p class="footer-desc">Building a progressive, inclusive, and culturally rich municipality with transparent governance and user-friendly digital solutions.</p>
+             <div class="social-links">
+               <a href="https://www.facebook.com/onecainta.onecainta" target="_blank" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg>
+               </a>
+             </div>
+          </div>
+          <div class="footer-links">
+            <div class="link-col">
+              <h4>Navigation</h4>
+              <a href="#home">Home</a>
+              <a href="#history">About Us</a>
+              <a href="#services">Services</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="link-col">
+              <h4>Resources</h4>
+              <a href="#">Full Disclosure</a>
+              <a href="#">Local Ordinances</a>
+              <a href="#">Resolutions</a>
+              <a href="#">E-Payment</a>
+            </div>
+            <div class="link-col">
+              <h4>Support</h4>
+              <a href="#hotlines">Hotlines</a>
+              <a href="#">Departments</a>
+              <a href="#">Barangays</a>
+              <a href="#">FAQ</a>
+            </div>
+            <div class="link-col">
+              <h4>Government</h4>
+              <a href="#">Mayor's Office</a>
+              <a href="#">Careers</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Municipality of Cainta. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div> 
+
+  <!-- Expanded Detail Modal Popup with Map -->
+  <div class="tourist-modal" id="touristModal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-body">
+        <div class="modal-info">
+          <h3 id="modalTitle">Title</h3>
+          <p id="modalDesc">Description goes here.</p>
+        </div>
+        <div class="modal-map" id="modalMap">
+          <!-- Google Map Embed loads dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen Video Modal -->
+  <div class="video-modal" id="videoModal">
+    <div class="video-modal-bg"></div>
+    <div class="video-modal-ui">
+      <!-- Top Left Expand Button -->
+      <button class="vm-expand" id="vmExpand" aria-label="Fullscreen">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+      </button>
+      <!-- Top Right Close Button -->
+      <button class="vm-close" id="vmClose" aria-label="Close">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="video-modal-content" id="vmContent">
+      <video id="vmPlayer" controls controlsList="nodownload">
+        <source src="" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h2 class="vm-title" id="vmTitle">Title</h2>
+      <a href="#" class="vm-link" id="vmLink">Go to Page</a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
